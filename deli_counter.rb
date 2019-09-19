@@ -25,4 +25,6 @@ end
 def now_serving(deli,name)
   if deli.empty?
     puts "There is nobody waiting to be served"
-    
+  else puts "Currently serving #{deli.first}."
+end
+end
