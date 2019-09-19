@@ -18,4 +18,4 @@ def line(deli)
 end
 
 def take_a_number(name, deli)
-  
+  deli << name
