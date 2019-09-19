@@ -23,4 +23,6 @@ def take_a_number(deli, name)
 end
 
 def now_serving(deli,name)
-  deli >>
+  if deli.empty?
+    puts "There is nobody waiting to be served"
+    
